@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+.container{
+    width: 100%;
+    background: #FFFFFF;
+}
+.header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-mini a{
+    width: 71px;
+    height: 29px;
+    top: 36px;
+    left: 1163px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    color: #000000;
+}
+.container-mini a:hover{
+    color: #BD1D1D;
+}
+.header img{
+    width: 87px;
+    height: 75px;
+}
+.container-menu{
+    background: #95B9C9;
+    align-items: center;
+}
+.menu-block1{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+}
+.menu-block{
+    width: 80%;
+    margin: 0 auto;
+}
+.menu-text{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 25px;
+    color:  #33332D;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+input{
+    width: 539px;
+    height: 57px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+.createMenu{
+    width: 244.1px;
+    height: 75px;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 20px;
+    background: transparent;
+    text-align: center;  
+    outline: none;
+}
+.createMenu:hover{
+    background: #DDAA27;
+    transition: 0.6s;
+    border: none;
+}
+.blocks{
+    display: flex;
+}
+.newList{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+}
+.list{
+    width: 240px;
+    /* height: 280px; */
+    margin-bottom: 30px;
+    padding: 13px;
+    background: #D9D9D9;
+}
+.images{
+    width: 170px;
+    height: 157px;
+    margin: 0 auto;
+    border-radius: 10px
+
+}
+.orderBtn{
+    width: 144px;
+    height: 40px;
+    border-radius: 10px;
+    background: #DDAA27;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px 0 10px 30px;
+    border: none;
+}
+.foodNameList{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
